@@ -1,3 +1,16 @@
+# How to compile tutoriale becase Lee fucked it up like a total professional software developer :)
+
+You need to install [Visual Studio 2010](https://archive.org/details/en_vs_2010_ult) and [Visual Studio 2010 SP1](https://archive.org/details/vs-2010-sp-1dvd-1), [Microsoft DirectX SDK August 2007](https://archive.org/details/dxsdk_aug2007), [Visual Studio 2012](https://archive.org/details/en_visual_studio_professional_2012_x86_dvd)
+
+Open the solution file exclusively in VS 2012 and do not let it update project files, leave them as is!
+Now, locate the GameFX project, right click it, click on properties, open up Linker and click general. Change the output file to: `$(ProjectDir)\..\..\..\..\Install\Compiler\plugins\DBProGameFX.dll` then click OK. I have no clue if that's the right place but at least compiles.
+
+Now do the same with Objects and change the output file to: `$(ProjectDir)\..\..\..\..\Install\Compiler\plugins\DBProBasic3DDebug.dll`, again, I have no clue if that's the right location for the compiled file.
+
+Repeat the same steps for the Transport project and change the output file to: `$(ProjectDir)\..\..\..\..\Install\Compiler\plugins\DBPro($TargetName)Debug.dll`, I have no idea still if that's the right directory where the linked DLL should go but at least it compiles. :)
+
+Now right click on Solution 'Dark Basic Pro' and choose Build. Depending on your machine this can take a while. :)
+
 # Dark-Basic-Pro
 Dark Basic Pro is an open source BASIC programming language for creating Windows applications and games. The solution requires Microsoft DirectX SDK (August 2007).
 
