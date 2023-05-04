@@ -1,4 +1,4 @@
-# How to compile tutoriale becase Lee fucked it up like a total professional software developer :)
+# How to compile tutoriale becase Lee fucked it up like a totally professional software developer :)
 
 You need to install [Visual Studio 2010](https://archive.org/details/en_vs_2010_ult) and [Visual Studio 2010 SP1](https://archive.org/details/vs-2010-sp-1dvd-1), [Microsoft DirectX SDK August 2007](https://archive.org/details/dxsdk_aug2007), [Visual Studio 2012](https://archive.org/details/en_visual_studio_professional_2012_x86_dvd)
 
